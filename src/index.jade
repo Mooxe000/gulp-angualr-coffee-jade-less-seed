@@ -1,0 +1,22 @@
+doctype html
+html(
+lang='en'
+ng-app='app'
+)
+  head
+    meta(charset='utf-8')
+    base(href="/")
+    title gulp-angualr-coffee-jade-less-seed DEMO
+
+    link(rel='stylesheet', href='./styles/libs/bootstrap.css', type="text/css")
+    link(rel='stylesheet', href='./styles/style.css', type="text/css")
+
+  body
+
+    div(
+    ng-controller='hello'
+    )
+      h1 {{hello}}
+
+    script(src="./scripts/libs/angular.js")
+    script(src="./scripts/script.js")
